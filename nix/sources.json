@@ -1,0 +1,50 @@
+{
+    "bcc-repo-tool": {
+        "branch": "master",
+        "description": "A tool for handling the update of Bcc related git repos",
+        "homepage": "",
+        "owner": "The-Blockchain-Company",
+        "repo": "bcc-repo-tool",
+        "rev": "9059370f40c0f6a9b2faa8fd2305b2b7b581b3bf",
+        "sha256": "00blv2rkqajginv7r9vqz268rwmrls9vqc8p1h3p7iwpw2v0zhqg",
+        "type": "tarball",
+        "url": "https://github.com/The-Blockchain-Company/bcc-repo-tool/archive/9059370f40c0f6a9b2faa8fd2305b2b7b581b3bf.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "haskell.nix": {
+        "branch": "master",
+        "description": "Alternative Haskell Infrastructure for Nixpkgs",
+        "homepage": "https://The-Blockchain-Company.github.io/haskell.nix",
+        "owner": "The-Blockchain-Company",
+        "repo": "haskell.nix",
+        "rev": "7e06e14ae1b894445254fe41288bfa7dd4ccbc6f",
+        "sha256": "0kn5jwb11fy80nnxxhki7a3qwfrr03yb5p04ikpki8n0gfrmdz8s",
+        "type": "tarball",
+        "url": "https://github.com/The-Blockchain-Company/haskell.nix/archive/7e06e14ae1b894445254fe41288bfa7dd4ccbc6f.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs": {
+        "branch": "nixos-21.11",
+        "description": "Nix Packages collection",
+        "homepage": null,
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "0d1d5d7e3679fec9d07f2eb804d9f9fdb98378d3",
+        "sha256": "1h07qm69sf9ixfs79hqvacdg1ml7qmgmcvgwsaibqwaypsy5afn6",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/0d1d5d7e3679fec9d07f2eb804d9f9fdb98378d3.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs-19.09": {
+        "branch": "nixos-19.09",
+        "description": "Nix Packages collection",
+        "homepage": null,
+        "owner": "NixOS",
+        "repo": "nixpkgs-channels",
+        "rev": "84f47bfe9ae892042fcb04f319ffe208cd0dbfd9",
+        "sha256": "0rh1kcasz78f2bbnd816705x027xkyrlm314x4jg8hjdhzyaky8f",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs-channels/archive/84f47bfe9ae892042fcb04f319ffe208cd0dbfd9.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}

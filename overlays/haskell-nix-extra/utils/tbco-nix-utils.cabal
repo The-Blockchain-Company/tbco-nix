@@ -1,0 +1,46 @@
+cabal-version:       2.2
+name:                tbco-nix-utils
+version:             0.1.0.0
+license:             Apache-2.0
+author:              TBCO Devops
+maintainer:          devops@tbco.io
+copyright:           2022 TBCO
+category:            Development
+
+library
+  build-depends:       base
+                     , async
+                     , bytestring
+                     , extra
+                     , foldl
+                     , optparse-applicative
+                     , safe
+                     , system-filepath
+                     , text
+                     , transformers
+                     , turtle
+  ghc-options:       -Wall
+  default-language:  Haskell2010
+  exposed-modules:   Build
+                   , BuildArgs
+                   , CommonBuild
+  hs-source-dirs:    lib
+executable set-git-rev
+  main-is:             set-git-rev.hs
+  build-depends:       base
+                     , bytestring
+                     , deepseq
+                     , file-embed
+  default-language:    Haskell2010
+  -- https://github.com/NixOS/nixpkgs/issues/46814
+  if os(darwin)
+     ghc-options:      -liconv
+
+executable rewrite-libs
+  main-is:             rewrite-libs.hs
+  build-depends:       base
+                     , turtle
+                     , megaparsec
+                     , text
+                     , directory
+  default-language:    Haskell2010
