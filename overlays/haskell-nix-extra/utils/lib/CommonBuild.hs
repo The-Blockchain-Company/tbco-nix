@@ -5,7 +5,7 @@
 {-# LANGUAGE TypeApplications #-}
 
 -- |
--- Copyright: © 2018-2019 TBCO
+-- Copyright: © 2018-2022 TBCO
 -- License: Apache-2.0
 --
 -- Functions for building projects with Stack under Buildkite.

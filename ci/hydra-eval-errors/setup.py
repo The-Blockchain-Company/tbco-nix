@@ -4,7 +4,7 @@ setuptools.setup(
     name="hydra-eval-errors",
     version="0.0.0",
     author="Samuel Leathers",
-    author_email="samuel.leathers@tbco.io",
+    author_email="samuel.leathers@blockchain-company.io",
     description="hydra-eval-errors",
     long_description="hydra-eval-errors",
     url="https://github.com/The-Blockchain-Company/tbco-nix",

@@ -40,7 +40,7 @@ writeScript "check-stack-project.sh" ''
 
     # Create the commit
     export GIT_COMMITTER_NAME="TBCO"
-    export GIT_COMMITTER_EMAIL="devops+stack-project@tbco.io"
+    export GIT_COMMITTER_EMAIL="devops+stack-project@blockchain-company.io"
     export GIT_AUTHOR_NAME="$GIT_COMMITTER_NAME"
     export GIT_AUTHOR_EMAIL="$GIT_COMMITTER_EMAIL"
     if [ -n "$commit_fixup" ]; then

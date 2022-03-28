@@ -149,7 +149,7 @@ let
       packages = packages.v0_9_1;
       genesisHash = "8e4d2a343f3dcf9330ad9035b3e8d168e6728904262f2c434a4f8f934ec7b676";
       genesisFile = ./genesis-itn_rewards_v1.yaml;
-      registryUrl = "https://github.com/bcc-foundation/incentivized-testnet-stake-poolregistry/archive/master.zip";
+      registryUrl = "https://github.com/the-blockchain-company/incentivized-testnet-stake-poolregistry/archive/master.zip";
       syncTolerance = "600s";
       genesisYaml = fetchurl {
         url = "https://update-quibitous-incentivized.tbco.io/genesis.yaml";

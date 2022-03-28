@@ -3,7 +3,7 @@ name:                tbco-nix-utils
 version:             0.1.0.0
 license:             Apache-2.0
 author:              TBCO Devops
-maintainer:          devops@tbco.io
+maintainer:          devops@blockchain-company.io
 copyright:           2022 TBCO
 category:            Development
 
