@@ -73,7 +73,7 @@ let
     <!DOCTYPE html>
     <html>
       <head>
-        <title>Jörmungandr Status</title>
+        <title>Quibitous Status</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
@@ -84,7 +84,7 @@ let
           <div class="hero-body">
             <div class="container">
               <h1 class="title is-1">
-                Jörmungandr
+                Quibitous
               </h1>
               <h2 class="subtitle is-3">
                 Configurations
