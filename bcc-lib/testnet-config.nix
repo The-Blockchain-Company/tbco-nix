@@ -32,8 +32,7 @@
   # This protocol version number gets used by block producing nodes as part
   # part of the system for agreeing on and synchronising protocol updates.
   LastKnownBlockVersion-Major = 3;
-  LastKnownBlockVersion-Minor = 0;
-  LastKnownBlockVersion-Alt = 0;
+  LastKnownBlockVersion-Sentry = 0;
 
   # In the Cole era some software versions are also published on the chain.
   # We do this only for Cole compatibility now.

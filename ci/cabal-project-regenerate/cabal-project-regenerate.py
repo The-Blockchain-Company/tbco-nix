@@ -28,7 +28,7 @@ buffer = open("cabal.project").read()
 # source-repository-package
 #  type: git
 #  location: https://github.com/The-Blockchain-Company/tbco-monitoring-framework
-#  tag: d5eb7ee92f0974aed5ac4a57a9bf5697ec065b7d
+#  tag: 2493b1104caa6d32378d0cb72d3fa92916b5570b
 #  subdir: tbco-monitoring
 
 # subdir is optional, so is a --sha256 comment
