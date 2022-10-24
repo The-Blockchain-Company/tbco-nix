@@ -6,7 +6,7 @@
         "owner": "The-Blockchain-Company",
         "repo": "bcc-repo-tool",
         "rev": "afb35e9101233395db4f6c2147cdc61055f55cc4",
-        "sha256": "0p81nzl79r0g686swsz6rkimgrz9xdyncpz5y8nkjhl8d8fgw9rx",
+        "sha256": "13dpqzph41irv5vhpdbawkg4nw1syx6m9sh8bsqfbdar71w0ydkw",
         "type": "tarball",
         "url": "https://github.com/The-Blockchain-Company/bcc-repo-tool/archive/afb35e9101233395db4f6c2147cdc61055f55cc4.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
@@ -17,8 +17,8 @@
         "homepage": "https://The-Blockchain-Company.github.io/haskell.nix",
         "owner": "The-Blockchain-Company",
         "repo": "haskell.nix",
-        "rev": "d92e1ed14b400bb2b6e8ea1eedf0a20dd90ad878",
-        "sha256": "1qcyybkvlx4dsxbk8r0138x6lpy6n62pdp2lix1v24w9657q5fmp",
+        "rev": "397077420c982cfa676b5450a0dffa0badc2f160aca377f801787d27861f502f",
+        "sha256": "0h1sasv36fwj6vi57rc74gd0kl5is1p7vxhyababjyv3lrkcjxm8",
         "type": "tarball",
         "url": "https://github.com/The-Blockchain-Company/haskell.nix/archive/d92e1ed14b400bb2b6e8ea1eedf0a20dd90ad878.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
