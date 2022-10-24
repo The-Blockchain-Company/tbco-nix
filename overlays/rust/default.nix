@@ -15,9 +15,9 @@ in {
     cargo = stableChannel.cargo;
   });
   makeQuibitous = (super.pkgs.callPackage ./quibitous.nix {}).makeQuibitous;
-  makeJcli = (super.pkgs.callPackage ./quibitous.nix {}).makeJcli;
+  makeQcli = (super.pkgs.callPackage ./quibitous.nix {}).makeQcli;
   makeQuibitous-debug = (super.pkgs.callPackage ./quibitous.nix { buildType = "debug"; }).makeQuibitous;
-  makeJcli-debug = (super.pkgs.callPackage ./quibitous.nix { buildType = "debug"; }).makeJcli;
+  makeQcli-debug = (super.pkgs.callPackage ./quibitous.nix { buildType = "debug"; }).makeQcli;
   bcc-http-bridge = super.pkgs.callPackage ./bcc-http-bridge.nix {};
   bcc-http-bridge-emurgo = super.pkgs.callPackage ./bcc-http-bridge-emurgo.nix {};
   bcc-cli = super.pkgs.callPackage ./bcc-cli.nix {};

@@ -99,7 +99,7 @@ let
       passthru = { inherit src; };
     };
 
-  makeJcli = { version, rev ? "v${version}", sha256, cargoSha256, name ? "quibitous-cli-${version}" }:
+  makeQcli = { version, rev ? "v${version}", sha256, cargoSha256, name ? "quibitous-cli-${version}" }:
     rustPlatform.buildRustPackage rec {
       inherit name version buildType;
       src = fetchSrc {
@@ -116,7 +116,7 @@ let
         ${commitHash rev}
         echo -e "\n[profile.dev]" >> Cargo.toml
         echo "opt-level = 0" >> Cargo.toml
-        cd jcli
+        cd qcli
       '';
       buildPhase = buildPhaseFn cargoBuildFlags;
       preInstall = "cd ..";
@@ -134,5 +134,5 @@ let
     };
 
 in {
-  inherit makeQuibitous makeJcli;
+  inherit makeQuibitous makeQcli;
 }

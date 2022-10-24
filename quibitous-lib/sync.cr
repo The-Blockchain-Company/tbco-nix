@@ -204,7 +204,7 @@ class QuibitousSynchronization
     file = `nix eval --raw '((import ./. {}).quibitousLib.environments.#{name}.genesisFile)'`.strip
     hash = `nix eval --raw '((import ./. {}).quibitousLib.environments.#{name}.genesisHash)'`.strip
 
-    cmd = "cd #{dir}; direnv exec . jcli genesis hash < static/block-0.bin"
+    cmd = "cd #{dir}; direnv exec . qcli genesis hash < static/block-0.bin"
     stdout, stderr = IO::Memory.new, IO::Memory.new
     process = Process.run("ssh", [server, cmd], error: stderr, output: stdout)
 

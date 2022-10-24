@@ -7,6 +7,6 @@ let
 in {
   quibitous = nixpkgs.recurseIntoAttrs (mapAttrs (name: env:
     nixpkgs.recurseIntoAttrs {
-      inherit (env.packages) jcli jcli-debug quibitous quibitous-debug;
+      inherit (env.packages) qcli qcli-debug quibitous quibitous-debug;
     }) tbco-nix.quibitousLib.environments);
 }

@@ -14,7 +14,7 @@ index 746d5fdf..5159e77f 100644
 @@ -1200,7 +1200,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
  
  [[package]]
- name = "jcli"
+ name = "qcli"
 -version = "0.2.1"
 +version = "0.2.2"
  dependencies = [
@@ -62,10 +62,10 @@ index 746d5fdf..5159e77f 100644
   "chain-crypto 0.1.0",
   "custom_error 1.6.0 (registry+https://github.com/rust-lang/crates.io-index)",
   "galvanic-test 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
-- "jcli 0.2.1",
+- "qcli 0.2.1",
 - "quibitous 0.2.1",
 - "quibitous-lib 0.1.0",
-+ "jcli 0.2.2",
++ "qcli 0.2.2",
 + "quibitous 0.2.2",
 + "quibitous-lib 0.2.2",
   "lazy_static 1.3.0 (registry+https://github.com/rust-lang/crates.io-index)",

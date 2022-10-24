@@ -27,8 +27,8 @@ let
     recursiveUpdate {
       quibitousLib.environments.${name} = {
         packages = {
-          jcli = supportedSystems;
-          jcli-debug = supportedSystems;
+          qcli = supportedSystems;
+          qcli-debug = supportedSystems;
           quibitous = supportedSystems;
           quibitous-debug = supportedSystems;
         };
@@ -37,7 +37,7 @@ let
   ) {} (attrNames quibitousLib.environments);
 
   usedQuibitousVersions = flatten (mapAttrsToList (name: env:
-    with env.packages; [ jcli jcli-debug quibitous quibitous-debug ]
+    with env.packages; [ qcli qcli-debug quibitous quibitous-debug ]
   ) quibitousLib.environments);
 
   quibitousConfigs = quibitousLib.forEnvironments quibitousLib.mkConfigHydra;

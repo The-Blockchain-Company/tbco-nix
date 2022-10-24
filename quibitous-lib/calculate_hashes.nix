@@ -1,9 +1,9 @@
 { version, sha256, cargoSha256 }@args:
 let
   inherit (import ../. { }) quibitousLib;
-  inherit (quibitousLib) makeJcli;
-  common = f: f (makeJcli args);
+  inherit (quibitousLib) makeQcli;
+  common = f: f (makeQcli args);
 in {
-  src = (makeJcli args).src;
-  cargoDeps = (makeJcli args).cargoDeps;
+  src = (makeQcli args).src;
+  cargoDeps = (makeQcli args).cargoDeps;
 }

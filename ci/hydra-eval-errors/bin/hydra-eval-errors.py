@@ -8,7 +8,7 @@ class ApiNotFoundError(Exception):
     pass
 
 class HydraEvalMonitor:
-    def __init__(self, repo, job, hydra_url="https://hydra.tbco.io", jobset="Bcc"):
+    def __init__(self, repo, job, hydra_url="https://hydra.quantumone.network", jobset="Bcc"):
         self.hydraUrl = hydra_url
         self.repo = repo
         self.jobset = jobset

@@ -14,13 +14,13 @@ let
     release = calculatedVersions.v0_8_9;
   };
 
-  inherit (rust-packages.pkgs) makeQuibitous makeJcli makeQuibitous-debug makeJcli-debug;
+  inherit (rust-packages.pkgs) makeQuibitous makeQcli makeQuibitous-debug makeQcli-debug;
 
   packages = builtins.mapAttrs (name: value: {
     quibitous = makeQuibitous value;
     quibitous-debug = makeQuibitous-debug value;
-    jcli = makeJcli value;
-    jcli-debug = makeJcli-debug value;
+    qcli = makeQcli value;
+    qcli-debug = makeQcli-debug value;
   }) versions;
 
   mkConfig = environment: let
@@ -110,7 +110,7 @@ let
                     ''
                     <tr>
                       <td>${name}</td>
-                      <td><a href="${linkTo value.packages.jcli.src.rev}">${value.packages.jcli.src.rev}</a></td>
+                      <td><a href="${linkTo value.packages.qcli.src.rev}">${value.packages.qcli.src.rev}</a></td>
                       <td style="font-family: monospace;">${value.genesisHash}</td>
                       <td>
                         <div class="buttons has-addons">
@@ -433,5 +433,5 @@ let
 
 in {
   inherit environments forEnvironments mkConfig mkConfigHydra versions packages
-          mkConfigHtml makeQuibitous makeJcli;
+          mkConfigHtml makeQuibitous makeQcli;
 }
