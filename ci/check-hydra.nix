@@ -8,12 +8,12 @@
 , fetchFromGitHub
 }:
 let
-  rev = "0768891e3cd3ef067d28742098f1dea8462fca75";
+  rev = "312cb42275e593eea5c44d8430ab09375fdb2fdb";
   hydra-src = fetchFromGitHub {
     inherit rev;
     owner = "The-Blockchain-Company";
     repo = "hydra";
-    sha256 = "1aw3p7jm2gsakdqqx4pzhkfx12hh1nxk3wkabcvml5ci814f6jic";
+    sha256 = "09jb6lyzkp6pc5c1xrav250v1rcxj9cklmpnc651ays04j0ms6fx";
   };
   hydra = (import "${hydra-src}/release.nix" {
     hydraSrc = {
