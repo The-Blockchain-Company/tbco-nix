@@ -1,9 +1,0 @@
-re	cabal-project-regenerate.py	/^import re$/;"	i
-subprocess	cabal-project-regenerate.py	/^import subprocess$/;"	i
-json	cabal-project-regenerate.py	/^import json$/;"	i
-path	cabal-project-regenerate.py	/^from os import path$/;"	i
-globalCache	cabal-project-regenerate.py	/^globalCache = {}$/;"	v
-buffer	cabal-project-regenerate.py	/^buffer = open("cabal.project").read()$/;"	v
-pattern	cabal-project-regenerate.py	/^        + r'(\\1--sha256:.*\\n){0,1}'$/;"	v
-repl	cabal-project-regenerate.py	/^def repl(match):$/;"	f
-f	cabal-project-regenerate.py	/^f = open("cabal.project",'w')$/;"	v

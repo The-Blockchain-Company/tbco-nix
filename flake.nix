@@ -2,7 +2,8 @@
   description = "TBCO nix lib, packages and overlays";
 
   outputs = { self, nixpkgs }: {
-
+    system = "x86_64-linux"
+    
     lib = import ./lib nixpkgs.lib;
 
     overlays = {
